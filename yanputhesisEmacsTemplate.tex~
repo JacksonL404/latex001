@@ -1,0 +1,266 @@
+﻿% Created 2023-03-28 周二 15:26
+% Intended LaTeX compiler: pdflatex
+\documentclass[lang=chs,degree=master,blindreview=true,winfonts=true]{yanputhesis}
+
+
+\usepackage{amsmath,metalogo,blindtext}
+\usepackage[binary-units=true]{siunitx}
+\usepackage[backend=bibtex,style=gb7714-2015]{biblatex}
+\addbibresource{ref}
+\addbibresource{reference}
+\title{学位论文写作与排版\\课程大作业}{Academic writing and typesetting\\Assignment}
+\author{\blindreview{张三丰}}{\blindreview{Zhang Sanfeng}}
+\date{2023年}{2023}
+\school{机电学院}{School of Mechanical Engineering}
+\major{机械制造}{Mechanical Manufacturing}
+\advisor{\blindreview{周计明}{\blindreview{Zhou Jiming}}
+\studentnumber{20000000}
+\funding{本研究得到玄学基金（编号23336666）资助。}{The present work is supported by Funding of Metaphysics (Project No：23336666).}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.2 (Org mode 9.5.5)}, 
+ pdflang={English}}
+\begin{document}
+
+\frontmatter
+\maketitle
+
+\makeCommitteePage{ 
+    \reviewers{\fullBlindReview{5}}  
+    \committee{2023 年 x 月 y 日}{
+        \defenseChair{赵钱孙}{教授}{西北工业大学}
+        \committeeMember{周吴郑}{教授}{西北工业大学}
+        \committeeMember{冯陈褚}{教授}{西北工业大学}
+        \committeeMember{\markname{蒋沈韩}}{教授}{西北工业大学}
+        \committeeMember{\blackbox{朱秦尤}}{教授}{西北工业大学}
+        \committeeMember{何吕施}{教授}{西北工业大学}
+        \committeeMember{孔曹严}{教授}{西北工业大学}
+        \defenseSecretary{金魏陶}{教授}{西北工业大学}
+    }
+}
+
+
+\begin{abstract}            
+    这是在西北工业大学本科毕业设计、硕博研究生毕业论文格式的要求下的一份 LaTeX
+    文档类模板。使用者无需额外修改格式控制细节，直接在所发布的样例基础上，修改章
+    节标题，撰写内容，即可完成毕业设计论文任务。            
+    \begin{keywords}                                       
+        学位论文 \sep 模板 \sep \LaTeX                      
+    \end{keywords}                                         
+\end{abstract}                                              
+
+\begin{engabstract}                                         
+    \noindent \blindtext                                    
+    \begin{engkeywords}                                     
+        thesis \ensep template \ensep \LaTeX                
+    \end{engkeywords}                                       
+\end{engabstract}                                           
+
+
+\tableofcontents                                            
+\listoffigures                                             
+\listoftables                                               
+\printnomenclature                                         
+
+\mainmatter
+\sDefault
+
+\chapter{一级标题}
+\label{sec:orga026ee2}
+\section{二级标题}
+\label{sec:org725735e}
+\chapter{另一个一级标题}
+\label{sec:orgb7ae034}
+\section{另一个二级标题}
+\label{sec:org017bd2d}
+
+此处引用了一篇参考文献\cite{chen2014maiyuan}。
+
+\chapter{这是一级标题 title one}
+\label{sec:orgffa9386}
+这是一级标题下的正文 学位论文
+body text
+\section{这是二级标题 title two}
+\label{sec:org766ed7e}
+
+这是二级标题下的正文
+
+\subsection{这是三级标题}
+\label{sec:org253c8a6}
+
+这是正文
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[angle=-90,width=3cm]{./poster.png}
+\caption{\label{fig:zjm1}这是签名}
+\end{figure}
+
+图\ref{fig:zjm1}是顺时针旋转90度的签名。
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[angle=90,width=3cm]{./poster.png}
+\caption{\label{fig:zjm}这是签名}
+\end{figure}
+
+图\ref{fig:zjm}是我的签名。
+
+\chapter{这是另一个一级标题}
+\label{sec:orga6c2c4c}
+\section{这是另一个三级标题}
+\label{sec:orgd35809d}
+\section{这是另一个二级标题}
+\label{sec:org950e0c6}
+
+这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是一段话这是
+
+一段话这是一段话
+
+
+\section{表格}
+\label{sec:org79a594f}
+\begin{table}[htbp]
+\caption{\label{tab:illus}表格示例}
+\centering
+\begin{tabular}{c|ccc|>{\centering}m{2cm}|c}
+\hline
+表题1 & 表题2 & 表题3 & 表题4 & 表题5表题5表题5表题5 & 表题6\\
+\hline
+内容 & 内容 & 内容 & 内容 & 内容 & 内容\\
+内容 & 内容 & 内容 & 内容 & 内容 & 内容\\
+内容 & 内容 & 内容 & 内容 & 内容 & 内容\\
+\hline
+\end{tabular}
+\end{table}
+
+表\ref{tab:illus}是一个表格示例。
+
+\section{公式输入}
+\label{sec:org2ad8c15}
+
+常用的希腊字母，比如\(\alpha\)、\(\beta\)等。我们可以用它表示一些行间公式。
+
+\[\alpha + \beta\]
+
+\begin{equation}
+\alpha +\beta
+\end{equation}
+
+\[\cfrac{1}{\sqrt{2}+\cfrac{1}{\sqrt{2}+\cfrac{1}{\sqrt{2}+\cdots}}}\]
+
+\begin{equation}
+\frac{1}{\sqrt{2}+\frac{1}{\sqrt{2}+\frac{1}{\sqrt{2}+\cdots}}}\label{equ:fracex}
+\end{equation}
+
+公式\eqref{equ:fracex}是一个大的分式。
+
+\begin{equation}
+\left(\begin{array}{cccc}
+D_{1} t & -a_{12} t_{2} & \ldots & -a_{1 n} t_{n} \\
+-a_{21} t_{1} & D_{2} t & \ldots & -a_{2 n} t_{n} \\
+\ldots \ldots \ldots \ldots & \ldots & \ldots \\
+-a_{n 1} t_{1} & -a_{n 2} t_{2} & \ldots & D_{n} t
+\end{array}\right)
+\end{equation}
+
+\begin{equation}
+\begin{pmatrix}
+D_{1} t & -a_{12} t_{2} & \ldots & -a_{1 n} t_{n} \\
+-a_{21} t_{1} & D_{2} t & \ldots & -a_{2 n} t_{n} \\
+\ldots \ldots \ldots \ldots & \ldots & \ldots \\
+-a_{n 1} t_{1} & -a_{n 2} t_{2} & \ldots & D_{n} t
+\end{pmatrix}
+\end{equation}
+
+\begin{equation}
+\begin{pmatrix}
+D_{1} t & -a_{12} t_{2} & \ldots & -a_{1 n} t_{n} \\
+-a_{21} t_{1} & D_{2} t & \ldots & -a_{2 n} t_{n} \\
+\ldots \ldots \ldots \ldots & \ldots & \ldots \\
+-a_{n 1} t_{1} & -a_{n 2} t_{2} & \ldots & D_{n} t
+\end{pmatrix}
+\end{equation}
+
+
+\begin{equation}
+\begin{pmatrix}
+D_{1} t & -a_{12} t_{2} & \ldots & -a_{1 n} t_{n} \\
+-a_{21} t_{1} & D_{2} t & \ldots & -a_{2 n} t_{n} \\
+\ldots \ldots \ldots \ldots & \ldots & \ldots \\
+-a_{n 1} t_{1} & -a_{n 2} t_{2} & \ldots & D_{n} t
+\end{pmatrix}
+\end{equation}
+
+\begin{equation}
+\begin{bmatrix}
+D_{1} t & -a_{12} t_{2} & \ldots & -a_{1 n} t_{n} \\
+-a_{21} t_{1} & D_{2} t & \ldots & -a_{2 n} t_{n} \\
+\ldots \ldots \ldots \ldots & \ldots & \ldots \\
+-a_{n 1} t_{1} & -a_{n 2} t_{2} & \ldots & D_{n} t
+\end{bmatrix}
+\end{equation}
+
+\begin{equation}
+\begin{Bmatrix}
+D_{1} t & -a_{12} t_{2} & \ldots & -a_{1 n} t_{n} \\
+-a_{21} t_{1} & D_{2} t & \ldots & -a_{2 n} t_{n} \\
+\ldots \ldots \ldots \ldots & \ldots & \ldots \\
+-a_{n 1} t_{1} & -a_{n 2} t_{2} & \ldots & D_{n} t
+\end{Bmatrix}
+\end{equation}
+
+\begin{equation}
+\begin{vmatrix}
+D_{1} t & -a_{12} t_{2} & \ldots & -a_{1 n} t_{n} \\
+-a_{21} t_{1} & D_{2} t & \ldots & -a_{2 n} t_{n} \\
+\ldots \ldots \ldots \ldots & \ldots & \ldots \\
+-a_{n 1} t_{1} & -a_{n 2} t_{2} & \ldots & D_{n} t
+\end{vmatrix}
+\end{equation}
+
+\begin{align}
+A_{1} & = N_{0}(\lambda ; \Omega)-\phi(\lambda ; \Omega) \\
+A_{2} & = \phi(\lambda ; \Omega)-\phi(\lambda ; \Omega)
+\intertext{and和}
+A_{3} & = \mathcal{N}(\lambda ; \omega) .
+\end{align}
+
+\begin{equation}
+\begin{aligned}
+A_{1} & = N_{0}(\lambda ; \Omega)-\phi(\lambda ; \Omega) \\
+A_{2} & = \phi(\lambda ; \Omega)-\phi(\lambda ; \Omega)\\
+A_{3} & = \mathcal{N}(\lambda ; \omega) .
+\end{aligned}
+\end{equation}
+
+\chapter{插入文献的第二种方法}
+\label{sec:orgdfd6b02}
+\section{方式2}
+\label{sec:org6d1923c}
+这个地方引用一篇参考文献\cite{WOS:000448181000017}。
+
+文献\parencite{WOS:000306571800032}认为\ldots{}
+
+以下这个观点很重要\footfullcite{WOS:000313155400001}。
+
+新导入的文献\cite{Katiyar2021}。
+
+这是一篇中文文献\cite{刘振强2022}。
+
+双一篇文献\cite{Campos2021}。
+
+\printbibliography
+
+
+
+\appendix
+
+\chapter{附录}
+\label{sec:org4bf071d}
+\end{document}

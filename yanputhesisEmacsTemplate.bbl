@@ -1,0 +1,497 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{chen2014maiyuan}{article}{}
+    \name{author}{1}{}{%
+      {{hash=�}{%
+         family={{陈家忠}},
+         familyi={�\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{�1}
+    \strng{fullhash}{�1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{9}
+    \field{pages}{15\bibrangedash 16}
+    \field{title}{脉源三支 强强融合——西北工业大学}
+    \field{journaltitle}{电子技术与软件工程}
+    \field{year}{2014}
+  \endentry
+
+  \entry{WOS:000448181000017}{article}{}
+    \name{author}{7}{}{%
+      {{hash=LR}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Ruiting},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Chi},
+         familyi={C\bibinitperiod},
+         given={Lina},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=WX}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Xinze},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=WY}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Yuan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Sui},
+         familyi={S\bibinitperiod},
+         given={Yanming},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=XT}{%
+         family={Xie},
+         familyi={X\bibinitperiod},
+         given={Tingting},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AH}{%
+         family={Arandiyan},
+         familyi={A\bibinitperiod},
+         given={Hamidreza},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {English}%
+    }
+    \list{publisher}{1}{%
+      {ELSEVIER SCIENCE SA}%
+    }
+    \keyw{Phosphate adsorption; Metal-organic frameworks; MIL-101; Trivalent
+  metals; Amino functionalization}
+    \strng{namehash}{LR+1}
+    \strng{fullhash}{LRCLWXWYSYXTAH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Although adsorbents for phosphate removal from eutrophic water have been
+  widely explored, it remains a critical challenge to develop robust and highly
+  selective phosphate adsorbents featuring abundant binding sites and high
+  affinity. In this work, two stable metal-organic frameworks (MOFs) of amine
+  functionalized MIL-101 based on trivalent metal aluminum and iron were
+  synthesized by simple solvothermal methods and applied as adsorbents to
+  capture phosphate ions of high strength. Phosphate adsorption kinetics,
+  isotherm behavior, and solution matrix effects (eg. solution pH, coexisting
+  ions and ionic strength) were reported. Results showed that trivalent metal
+  based NH2-MIL-101 MOFs outperformed most adsorbents ever reported, exhibiting
+  fast kinetics and high maximal adsorption capacity above 79.414 mg P/g at 298
+  K, pH independence in the range from 3 to 11, less sensitivity to ion
+  strength, strong selectivity for phosphate in presence of competing ions and
+  could be easily regenerated and re-applied for phosphate removal. It was
+  noticeable that phosphate adsorption performance varied on the two kinds of
+  trivalent metals based MOFs due to their difference in morphology, surface
+  and interface properties including zeta potential, chemical affinity toward
+  target anion and the types of complexation formed with phosphate.
+  NH2-MIL-101(Al) showed faster kinetics, while NH2-MIL-101(Fe) has higher
+  affinity toward phosphate. Furthermore, based on Fourier transform infrared
+  (FTIR), X-ray photoelectron spectroscopy (XPS) spectra and zeta potential
+  analysis, electrostatic attraction and ligand exchange were identified as the
+  main phosphate adsorption mechanisms by NH2-MIL-101(Al/Fe). Besides, the
+  functionalized adsorbents with amine group further enhanced the phosphate
+  removal capacities by providing extra surficial positive charges. These
+  findings demonstrate that trivalent metal based NH2-MIL-101 is a promising
+  candidate for phosphate adsorption from aqueous solution with high efficiency
+  and selectivity.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cej.2018.09.122
+    \endverb
+    \field{issn}{1385-8947}
+    \field{pages}{159\bibrangedash 168}
+    \field{title}{Effective and selective adsorption of phosphate from aqueous
+  solution via trivalent-metals-based amino-MIL-101 MOFs}
+    \field{volume}{357}
+    \list{location}{1}{%
+      {PO BOX 564, 1001 LAUSANNE, SWITZERLAND}%
+    }
+    \field{type}{Article}
+    \field{journaltitle}{CHEMICAL ENGINEERING JOURNAL}
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{WOS:000306571800032}{article}{}
+    \name{author}{11}{}{%
+      {{hash=SQ}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Qilei},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=NSK}{%
+         family={Nataraj},
+         familyi={N\bibinitperiod},
+         given={S.\bibnamedelima K.},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=RMV}{%
+         family={Roussenova},
+         familyi={R\bibinitperiod},
+         given={Mina\bibnamedelima V.},
+         giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=TJC}{%
+         family={Tan},
+         familyi={T\bibinitperiod},
+         given={Jin\bibnamedelima Chong},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=HDJ}{%
+         family={Hughes},
+         familyi={H\bibinitperiod},
+         given={David\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=LW}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Bourgoin},
+         familyi={B\bibinitperiod},
+         given={Pierre},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=AMA}{%
+         family={Alam},
+         familyi={A\bibinitperiod},
+         given={M.\bibnamedelima Ashraf},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=CAK}{%
+         family={Cheetham},
+         familyi={C\bibinitperiod},
+         given={Anthony\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=AMSA}{%
+         family={Al-Muhtaseb},
+         familyi={A\bibinithyphendelim M\bibinitperiod},
+         given={Shaheen\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Sivaniah},
+         familyi={S\bibinitperiod},
+         given={Easan},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {English}%
+    }
+    \list{publisher}{1}{%
+      {ROYAL SOC CHEMISTRY}%
+    }
+    \strng{namehash}{SQ+1}
+    \strng{fullhash}{SQNSKRMVTJCHDJLWBPAMACAKAMSASE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    As synthesised ZIF-8 nanoparticles (size similar to 60 nm and specific
+  surface area similar to 1300-1600 m(2) g(-1)) were directly incorporated into
+  a model polymer matrix (Matrimid (R) 5218) by solution mixing. This produces
+  flexible transparent membranes with excellent dispersion of nanoparticles (up
+  to loadings of 30 wt\%) with good adhesion within the polymer matrix, as
+  confirmed by scanning electron microscopy, dynamic mechanical thermal
+  analysis and gas sorption studies. Pure gas (H-2, CO2, O-2, N-2 and CH4)
+  permeation tests showed enhanced permeability of the mixed matrix membrane
+  with negligible losses in selectivity. Positron annihilation lifetime
+  spectroscopy (PALS) indicated that an increase in the free volume of the
+  polymer with ZIF-8 loading together with the free diffusion of gas through
+  the cages of ZIF-8 contributed to an increase in gas permeability of the
+  composite membrane. The gas transport properties of the composite membranes
+  were well predicted by a Maxwell model whilst the processing strategy
+  reported can be extended to fabricate other polymer nanocomposite membranes
+  intended for a wide range of emerging energy applications.%
+    }
+    \verb{doi}
+    \verb 10.1039/c2ee21996d
+    \endverb
+    \field{issn}{1754-5692}
+    \field{number}{8}
+    \field{pages}{8359\bibrangedash 8369}
+    \field{title}{Zeolitic imidazolate framework (ZIF-8) based polymer
+  nanocomposite membranes for gas separation}
+    \field{volume}{5}
+    \list{location}{1}{%
+      {THOMAS GRAHAM HOUSE, SCIENCE PARK, MILTON RD, CAMBRIDGE CB4 0WF, CAMBS,
+  ENGLAND}%
+    }
+    \field{type}{Article}
+    \field{journaltitle}{ENERGY \& ENVIRONMENTAL SCIENCE}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{WOS:000313155400001}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SI}{%
+         family={Sabirov},
+         familyi={S\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=MMY}{%
+         family={Murashkin},
+         familyi={M\bibinitperiod},
+         given={M.\bibnamedelima Yu},
+         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=VRZ}{%
+         family={Valiev},
+         familyi={V\bibinitperiod},
+         given={R.\bibnamedelima Z.},
+         giveni={R\bibinitperiod\bibinitdelim Z\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {English}%
+    }
+    \list{publisher}{1}{%
+      {ELSEVIER SCIENCE SA}%
+    }
+    \keyw{Aluminium alloys; Nanostructured materials; Severe plastic
+  deformation; Properties}
+    \strng{namehash}{SI+1}
+    \strng{fullhash}{SIMMYVRZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In recent years, much progress has been made in the studies of
+  nanostructured Al alloys for advanced structural and functional use
+  associated both with the development of novel routes for the fabrication of
+  bulk nanostructured materials using severe plastic deformation (SPD)
+  techniques and with investigation of fundamental mechanisms leading to
+  improved properties. This review paper discusses new concepts and principles
+  in application of SPD processing to fabricate bulk nanostructured Al alloys
+  with advanced properties. Special emphasis is placed on the relationship
+  between microstructural features, mechanical, chemical, and physical
+  properties, as well as the innovation potential of the SPD-produced
+  nanostructured Al alloys. (c) 2012 Elsevier B.V. All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.msea.2012.09.020
+    \endverb
+    \field{issn}{0921-5093}
+    \field{pages}{1\bibrangedash 24}
+    \field{title}{Nanostructured aluminium alloys produced by severe plastic
+  deformation: New horizons in development}
+    \field{volume}{560}
+    \list{location}{1}{%
+      {PO BOX 564, 1001 LAUSANNE, SWITZERLAND}%
+    }
+    \field{type}{Review}
+    \field{journaltitle}{MATERIALS SCIENCE AND ENGINEERING A-STRUCTURAL
+  MATERIALS PROPERTIES MICROSTRUCTURE AND PROCESSING}
+    \field{year}{2013}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Katiyar2021}{incollection}{}
+    \name{author}{3}{}{%
+      {{hash=KJK}{%
+         family={Katiyar},
+         familyi={K\bibinitperiod},
+         given={Jitendra\bibnamedelima K.},
+         giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=HJA}{%
+         family={Hammad},
+         familyi={H\bibinitperiod},
+         given={Jaafar\bibnamedelima Al},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MAS}{%
+         family={Mohammed},
+         familyi={M\bibinitperiod},
+         given={Abdul\bibnamedelima Samad},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=BD}{%
+         family={Brabazon},
+         familyi={B\bibinitperiod},
+         given={Dermot},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \keyw{Aluminum, Magnesium, Metal Matrix Composite, Tribology}
+    \strng{namehash}{KJK+1}
+    \strng{fullhash}{KJKHJAMAS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Metal Matrix Composites (MMCs) because of their excellent properties such
+  as light weight, higher ductility, higher strength etc. are replacing
+  conventional metallic materials in automobile and aerospace industries. Even
+  though, various kinds of MMCs have been developed over the years, among them,
+  Aluminum (Al) and Magnesium (Mg) MMCs have proven to be more promising
+  materials in the automobile and aerospace industries because of their
+  lightweight, excellent mechanical properties coupled with better tribological
+  performance. However, the tribological behavior of these MMCs depend upon
+  various factors which are classified into three categories such as,
+  reinforcement material (size, shape, volume fraction, and type of
+  reinforcement), operating conditions (normal load and sliding speed) and
+  environmental conditions (temperature and relative humidity). Hence, the
+  present chapter aims to describe in detail, the tribological behavior of the
+  Al/Mg MMCs under different conditions.%
+    }
+    \field{booktitle}{Encyclopedia of Materials: Composites}
+    \verb{doi}
+    \verb https://doi.org/10.1016/B978-0-12-819724-0.00104-X
+    \endverb
+    \field{isbn}{978-0-12-819731-8}
+    \field{pages}{389\bibrangedash 401}
+    \field{title}{Tribological Properties of Light Metal Matrix Composites}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/B978012819724000104
+    \verb X
+    \endverb
+    \list{location}{1}{%
+      {Oxford}%
+    }
+    \field{year}{2021}
+  \endentry
+
+  \entry{刘振强2022}{article}{}
+    \name{author}{6}{}{%
+      {{hash=�}{%
+         family={刘振强},
+         familyi={�\bibinitperiod},
+      }}%
+      {{hash=�}{%
+         family={王匀},
+         familyi={�\bibinitperiod},
+      }}%
+      {{hash=�}{%
+         family={李瑞涛},
+         familyi={�\bibinitperiod},
+      }}%
+      {{hash=�}{%
+         family={何培瑜},
+         familyi={�\bibinitperiod},
+      }}%
+      {{hash=�}{%
+         family={刘宏},
+         familyi={�\bibinitperiod},
+      }}%
+      {{hash=�}{%
+         family={刘为力},
+         familyi={�\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{�+1}
+    \strng{fullhash}{������1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{issn}{1674-6457}
+    \field{number}{119-130}
+    \field{title}{纳米氮化硼增强金属基复合材料的研究进展}
+    \field{journaltitle}{精密成形工程}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Campos2021}{article}{}
+    \name{author}{5}{}{%
+      {{hash=CM}{%
+         family={Campos},
+         familyi={C\bibinitperiod},
+         given={Mónica},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TJM}{%
+         family={Torralba},
+         familyi={T\bibinitperiod},
+         given={José\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=ORd}{%
+         family={Oro},
+         familyi={O\bibinitperiod},
+         given={Raquel\bibnamedelima de},
+         giveni={R\bibinitperiod\bibinitdelim d\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Bernardo},
+         familyi={B\bibinitperiod},
+         given={Elena},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=GSA}{%
+         family={Galán-Salazar},
+         familyi={G\bibinithyphendelim S\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CM+1}
+    \strng{fullhash}{CMTJMORdBEGSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The Master-alloy (MA) alloy route to promote a liquid phase during
+  sintering has great potential to reduce costs in low alloyed sintered steels,
+  meanwhile enabling the introduction of innovative alloy systems with Cr, Mn
+  and Si. However, in order to successfully modify the performance of steels,
+  multi requirements must be met, including, for example, solubility with the
+  base material, compatibility with the usual sintering atmospheres,
+  homogeneous distribution of the powdered master alloy in the material and the
+  control of secondary porosity. Efforts have been made to properly design the
+  composition of MA, to identify the reducing agents and to understand how they
+  affect the wetting and liquid spreading all over the sintered part. This work
+  reviews these key aspects for the efficient development of steels and
+  explores the possibility to achieve a composition that can act as liquid
+  former or as sinter braze adapting its use to the component requirement.%
+    }
+    \verb{doi}
+    \verb 10.3390/met11010176
+    \endverb
+    \field{issn}{2075-4701}
+    \field{number}{1}
+    \field{title}{New Opportunities for Low Alloy Steels—Master Alloys for
+  Liquid Phase Sintering}
+    \verb{url}
+    \verb https://www.mdpi.com/2075-4701/11/1/176
+    \endverb
+    \field{volume}{11}
+    \field{journaltitle}{Metals}
+    \field{year}{2021}
+  \endentry
+\enddatalist
+\endinput

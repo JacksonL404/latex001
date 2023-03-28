@@ -1,0 +1,148 @@
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(debug-on-quit t)
+ '(inhibit-startup-screen t)
+ '(org-agenda-files nil)
+ '(show-paren-mode t))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+;;
+
+;;;;2019.2.20
+(setq default-buffer-file-coding-system 'utf-8) 
+
+;;
+
+;;
+(setq-default TeX-engine 'xetex) ; 设定缺省的编译引擎
+;;;;
+
+
+;; org 自动换行
+(add-hook 'org-mode-hook
+	  (lambda () (setq truncate-lines nil)))
+
+;; 设置字体
+
+;; Setting English Font
+;(set-face-attribute 'default nil :font "DejaVu Sans Mono 10")
+
+;; Chinese Font
+;(dolist (charset '(kana han symbol cjk-misc bopomofo))
+; ; (set-fontset-font (frame-parameter nil 'font)
+;		    charset (font-spec :family "STSong"
+;				       :size 16)))
+
+;;;Agenda
+(setq org-agenda-include-diary t)
+(setq org-agenda-files (list "~/zhouNote.org"))
+
+
+
+
+;;;image size inline image
+(setq org-image-actual-width 150)
+
+;;;;Latex class article
+;; (setq org-latex-classes
+;;       '(("article"
+;;          "
+;; \\documentclass[12pt,a4paper]{article}
+;; \\usepackage[margin=2cm]{geometry}
+;; \\usepackage{fontspec}
+;; \\usepackage{xeCJK}
+;; \\setmainfont{Times New Roman}
+;; \\setCJKmainfont{STSong}
+;; "
+;;          ("\\section{%s}" . "\\section*{%s}")
+;;          ("\\subsection{%s}" . "\\subsection*{%s}")
+;;          ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+;;          ("\\paragraph{%s}" . "\\paragraph*{%s}")
+;;          ("\\subparagraph{%s}" . "\\subparagraph*{%s}"))
+;;         ))
+;;;;
+;;;Latex class book
+;;;
+
+(with-eval-after-load 'ox-latex
+   (add-to-list 'org-latex-classes
+                '("elegantbook"
+                  "\\documentclass{elegantbook}"
+                  ("\\chapter{%s}" . "\\chapter*{%s}")
+                  ("\\section{%s}" . "\\section*{%s}")
+                  ("\\subsection{%s}" . "\\subsection*{%s}")
+                  ("\\subsubsection{%s}" . "\\subsubsection*{%s}")))
+   (add-to-list 'org-latex-classes
+                '("yanputhesis"
+                  "\\documentclass{yanputhesis}
+				  [NO-DEFAULT-PACKAGES]"
+                  ("\\chapter{%s}" . "\\chapter*{%s}")
+                  ("\\section{%s}" . "\\section*{%s}")
+                  ("\\subsection{%s}" . "\\subsection*{%s}")
+                  ("\\subsubsection{%s}" . "\\subsubsection*{%s}"))))
+
+
+(setq org-latex-classes
+      '(("book"
+         "
+\\documentclass[12pt,a4paper]{book}
+"
+         ("\\chapter{%s}" . "\\chapter*{%s}")
+         ("\\section{%s}" . "\\section*{%s}")	 
+         ("\\subsection{%s}" . "\\subsection*{%s}")
+         ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+         ("\\paragraph{%s}" . "\\paragraph*{%s}")
+         ("\\subparagraph{%s}" . "\\subparagraph*{%s}"))
+        ))
+
+
+;; (require 'ox-latex)
+;; (unless (boundp 'org-latex-classes)
+;;   (setq org-latex-classes nil))
+;; (add-to-list 'org-latex-classes
+;;              '("book"
+;;                "\\documentclass{book}"
+;;                ("\\part{%s}" . "\\part*{%s}")
+;;                ("\\chapter{%s}" . "\\chapter*{%s}")
+;;                ("\\section{%s}" . "\\section*{%s}")
+;;                ("\\subsection{%s}" . "\\subsection*{%s}")
+;;                ("\\subsubsection{%s}" . "\\subsubsection*{%s}"))
+;;              )
+
+
+
+;;;Xelatex
+;; Use XeLaTeX to export PDF in Org-mode
+(setq org-latex-pdf-process
+      '("xelatex -shell-escape -interaction nonstopmode -output-directory %o %f"
+	"bibtex %b"
+        "xelatex -shell-escape -interaction nonstopmode -output-directory %o %f"
+        "xelatex -shell-escape -interaction nonstopmode -output-directory %o %f"))
+;;;Package list
+
+
+
+;;;;;
+;; set XeTeX mode in TeX/LaTeX
+(add-hook 'LaTeX-mode-hook 
+          (lambda()
+             (add-to-list 'TeX-command-list '("XeLaTeX" "%`xelatex%(mode)%' %t" TeX-run-TeX nil t))
+             (setq TeX-command-default "XeLaTeX")
+             (setq TeX-save-query nil)
+             (setq TeX-show-compilation t)))
+;;;;
+;;;导出表格环境时取消居中环境设置，这个只是消除了threeparttable导出时由于center环境导致的冲突，但对于一般表格，其实缺省的居中环境还是很有必要的。
+;;(setq org-latex-tables-centered nil)
+;;;;
+;;;
+(setq org-export-latex-use-verb t)
+
+(setq org-latex-prefer-user-labels t)
+
